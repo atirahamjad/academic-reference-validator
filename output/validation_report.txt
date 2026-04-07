@@ -1,0 +1,77 @@
+================================================================================
+ACADEMIC REFERENCE VALIDATOR — REPORT
+Generated: 2026-04-08 04:56:42
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total references analysed : 10
+Valid references          : 8
+References with issues    : 2
+Duplicate references      : 1
+Average quality score     : 85.5 / 100
+Style consistency         : Mixed citation styles detected: Chicago/Harvard(1) APA(7) IEEE(2)
+
+QUALITY DISTRIBUTION
+----------------------------------------
+  Excellent (90-100) : 8
+  Good      (75-89)  : 0
+  Fair      (50-74)  : 2
+  Poor      (0-49)   : 0
+
+CITATION STYLE DISTRIBUTION
+----------------------------------------
+  Chicago/Harvard: 1
+  APA: 7
+  IEEE: 2
+
+VALID REFERENCES
+----------------------------------------
+1. [APA] [Score: 100/100 - Excellent]
+   Smith, J. (2020). The impact of machine learning on healthcare. Journal of Medical Informatics, 45(2), 123-145. https://doi.org/10.1016/j.jmi.2020.01.001
+   DOI: 10.1016/j.jmi.2020.01.001
+
+2. [APA] [Score: 90/100 - Excellent]
+   Johnson, A., & Williams, B. (2019). Deep learning applications in finance. Financial Analytics Review, 12(1), 45-67.
+
+3. [IEEE] [Score: 90/100 - Excellent]
+   M. Brown, "Natural language processing for sentiment analysis," IEEE Transactions on Neural Networks, vol. 31, pp. 456-478, 2021.
+
+4. [APA] [Score: 90/100 - Excellent]
+   Davis, R. (2018). Big data and business intelligence. Harvard Business Review.
+
+5. [APA] [Score: 90/100 - Excellent]
+   Smith, J. (2020). The impact of machine learning on healthcare. Journal of Medical Informatics, 45(2), 123-145.
+
+6. [IEEE] [Score: 90/100 - Excellent]
+   T. Chen, "Reinforcement learning in robotics," Journal of AI Research, pp. 100-120, 2022.
+
+7. [APA] [Score: 100/100 - Excellent]
+   Anderson, P., & Lee, S. (2017). Predictive analytics in supply chain management. Operations Research Quarterly, 8(3), 89-112. https://doi.org/10.1007/s11234-017-0456-x
+   DOI: 10.1007/s11234-017-0456-x
+
+8. [APA] [Score: 90/100 - Excellent]
+   Garcia, M. (2015). Neural networks and pattern recognition. Computational Intelligence Journal, 23(4), 201-225.
+
+REFERENCES WITH ISSUES
+----------------------------------------
+1. [Score: 65/100 - Fair] (2021). Missing author reference. Some Journal, 5(1), 10-20.
+   >> Missing author
+
+2. [Score: 50/100 - Fair] Wilson, K. Data mining techniques without year. International Journal of Data Science.
+   >> Missing year
+   >> Missing journal/source
+
+DUPLICATE REFERENCES DETECTED
+----------------------------------------
+  [x2] Smith, J. (2020). The impact of machine learning on healthcare. Journal of Medical Informatics, 45(2), 123-145.
+
+DOI SUMMARY
+----------------------------------------
+  References with DOI       : 2
+  Valid DOI format          : 2
+  Missing or invalid DOI    : 8
+
+================================================================================
+END OF REPORT
+================================================================================
