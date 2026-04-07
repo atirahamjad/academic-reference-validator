@@ -29,11 +29,32 @@ Manual reference checking in academic work is tedious and error-prone. Missing a
 
 ## Sample output
 
----
+    ================================================================================
+    ACADEMIC REFERENCE VALIDATOR v2.0
+    ================================================================================
+    [OK    ] [Score: 100/100] [APA] Smith, J. (2020). The impact of machine learning...
+    [OK    ] [Score: 90/100]  [IEEE] M. Brown, "Natural language processing..."
+    [ISSUES] [Score: 65/100]  [APA] (2021). Missing author reference...
+
+    VALIDATION COMPLETE
+    Total references  : 10
+    Valid             : 8
+    Issues found      : 2
+    Duplicates        : 1
+    Average score     : 85.5 / 100
+    ================================================================================
 
 ## Project structure
 
----
+    ReferenceValidator/
+    ├── src/main/java/
+    │   ├── Citation.java          # Data model
+    │   ├── Validator.java         # Parsing and validation logic
+    │   ├── ReportGenerator.java   # Report output
+    │   └── Main.java              # Entry point
+    ├── sample_references.csv      # Sample input file
+    ├── output/                    # Generated reports
+    └── README.md
 
 ## How to run
 
